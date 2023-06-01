@@ -124,8 +124,8 @@ while True:
         print("Please tell me the name of the city you want to know the weather of:\n")
         say("Please tell me the name of the city you want to know the weather of:")
         inp = hear()
-        rep = api_func.weather(inp)
-        say(rep)
+        inp = hear()
+        say(api_func.weather(inp))
         
     elif "the time" in cmd.lower():
         time = datetime.datetime.now().strftime("%H:%M:%S")
