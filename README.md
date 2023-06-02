@@ -17,9 +17,13 @@ Just say: $\textbf{``Play (name of song)''}$.
 
 --> If you choose not to enter anything about the site currently, worry not, just enter $\textbf{``q''}$ in name section and find the prompt disabled.
 
-3. Want to know the current weather details of any city worldwide? Just say $\textbf{``What's the weather like?''}$. Yantra then asks you the name of the city and the deatils are with you in seconds!
+3. Like to be on time everywhere? Just ask $\textbf{``What's the time currently?''}$
 
-4. Once activated, Yantra is always at your command, accepting your voice inputs until $\textbf{``Shut down''}$ command is recieved as a voice input.
+4. Forgot today's date? Just ask $\textbf{``What's today's date?''}$.
+
+5. Want to know the current weather details of any city worldwide? Just ask $\textbf{``What's the weather like?''}$. Yantra then asks you the name of the city and the deatils are with you in seconds!
+
+6. Once activated, Yantra is always at your command, accepting your voice inputs until $\textbf{``Shut down''}$ command is recieved as a voice input.
 
 We are always open for improvements, so feel free to point out any bug or an improvement necessary.
 
