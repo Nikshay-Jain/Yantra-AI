@@ -1,12 +1,28 @@
 # Yantra A.I.
-This Project aims at developing an AI assistant for desktop having speech based operations in addition to text.
+This Project aims at developing an AI assistant for desktop having speech based operations in addition to text for your assistance.
 
 The source code is contained in $\textit{main.py}$ and $\textit{Yantra.ipynb}$ in different formats.
 
-Yantra can help you open a website on the internet or an app on your local drive by simply speaking - $\textbf{``Open (name of website/app)''}$. In case it is not present in its database, it'll prompt you to enter its url and name to be referred as text.
+This tool helps you simplify your daily operations on your computer greatly by inducing speech sensitive response mechanism.
 
-The site info would then be stored in the $\textit{sites.csv}$ file. Yantra now knows which site to access in case the name is called again. Enter $\textbf{``q''}$ in name section if you dont want to enter anything about the site.
+Yantra performs the following operations with ease:
+1. Yantra can help you open a website on the internet or an app on your local drive by simply speaking - $\textbf{``Open (name of website/app)''}$.
 
-It can also help you to play songs stored in the local memory by the voice command: $\textbf{``Play (name of song)''}$. 
+2. Getting bored and want to listen to a pleasing song from your local computer?
+Just say: $\textbf{``Play (name of song)''}$. 
 
-This tool keeps on running and accepting voice inputs until $\textbf{``Shut down''}$ command is recieved as voice input.
+--> In case the website or app or the song you asked for is not present in its database, it'll prompt you to enter its name and url as text.
+
+--> The label and location info would then be stored in the $\textit{sites.csv}$ file which acts as its database. Yantra now knows which site to access in case the name is called again.
+
+--> If you choose not to enter anything about the site currently, worry not, just enter $\textbf{``q''}$ in name section and find the prompt disabled.
+
+3. Want to know the current weather details of any city worldwide? Just say $\textbf{``What's the weather like?''}$. Yantra then asks you the name of the city and the deatils are with you in seconds!
+
+4. Once activated, Yantra is always at your command, accepting your voice inputs until $\textbf{``Shut down''}$ command is recieved as a voice input.
+
+We are always open for improvements, so feel free to point out any bug or an improvement necessary.
+
+Hope Yantra helps to simplify your experience of using this machine.
+
+Just say!
