@@ -9,7 +9,7 @@ Yantra performs the following operations with ease:
 1. Yantra can help you open a website on the internet or an app on your local drive by simply speaking - $\textbf{``Open (name of website/app)''}$.
 
 2. Getting bored and want to listen to a pleasing song from your local computer?
-Just say: $\textbf{``Play (name of song)''}$. 
+Just say: $\textbf{``Play (name of song)''}$
 
 --> In case the website or app or the song you asked for is not present in its database, it'll prompt you to enter its name and url as text.
 
