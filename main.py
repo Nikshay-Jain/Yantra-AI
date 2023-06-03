@@ -13,7 +13,7 @@ import speech_recognition as sr
 engine = pyttsx3.init()
 
 # Set the properties of the speech output
-engine.setProperty("rate", 225)  # Speech speed (words per minute)
+engine.setProperty("rate", 225)    # Speech speed (words per minute)
 engine.setProperty("voice", "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0")
 
 def say(text):
@@ -22,7 +22,7 @@ def say(text):
 
 #initialise the microphone
 r = sr.Recognizer()
-sr.Microphone(device_index=0)
+sr.Microphone(device_index=1)
 
 # Adjust the energy threshold dynamically based on the ambient noise level
 with sr.Microphone() as source:
@@ -40,6 +40,7 @@ r.energy_threshold = energy_threshold
 def hear():
     with sr.Microphone() as source:
         #r.pause_threshold = 1     # seconds of pause after which the phrase is considered completed.
+        r.listen(source, timeout=4)  # Listen for speech input for a maximum of 5 seconds
         audio = r.listen(source)
 
         try:
@@ -105,11 +106,17 @@ while True:
                 break
 
     elif "weather" in cmd.lower():
-        print("Please tell me the name of the city you want to know the weather of:\n")
+        print("Please tell me the name of the city you want to know the weather of:")
         say("Please tell me the name of the city you want to know the weather of:")
         inp = hear()
         say(api_func.weather(inp))
         
+    elif "news" in cmd.lower():
+        print("Please tell me specifically the topic you want the news about:")
+        say("Please tell me specifically the topic you want the news about:")
+        inp = hear()
+        say(api_func.news(inp))
+
     elif "the time" in cmd.lower():
         time = datetime.datetime.now().strftime("%H:%M:%S")
         print(f"The time currently is {time}")
