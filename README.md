@@ -23,10 +23,12 @@ Just say: $\textbf{``Play (name of song)''}$
 
 5. Want to know the current weather details of any city worldwide? Just ask $\textbf{``What's the weather like?''}$. Yantra then asks you the name of the city and the deatils are with you in seconds!
 
-6. Once activated, Yantra is always at your command, accepting your voice inputs until $\textbf{``Shut down''}$ command is recieved as a voice input.
+6. Like to stay updated about the current affairs? Just say $\textbf{``Tell me some news Yantra!''}$. Yantra asks your domain of interests and reads out top 3 headlines containing the keywords.
 
-We are always open for improvements, so feel free to point out any bug or an improvement necessary.
+7. Once activated, Yantra is always at your command, accepting your voice inputs until $\textbf{``Shut down''}$ command is recieved as a voice input.
 
-Hope Yantra helps to simplify your experience of using this machine.
+We wish to add new features as per your requirements and are always open for improvements, so feel free to point out any bug or an improvement necessary to make Yantra better.
 
-Just say!
+Hope Yantra helps simplify your experience of using this machine.
+
+Yantra! Just say!
