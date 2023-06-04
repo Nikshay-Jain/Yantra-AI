@@ -22,7 +22,7 @@ def say(text):
 
 #initialise the microphone
 r = sr.Recognizer()
-sr.Microphone(device_index=1)
+#mic = sr.Microphone(device_index=0)
 
 # Adjust the energy threshold dynamically based on the ambient noise level
 with sr.Microphone() as source:
@@ -34,13 +34,13 @@ with sr.Microphone() as source:
 energy_threshold = r.energy_threshold * 1.5  # Increase the threshold by a factor (e.g., 1.5)
 
 # Set the energy threshold for speech recognition
-r.energy_threshold = energy_threshold
+r.energy_threshold = 300
 
 # Understanding Speech said on the microphone
 def hear():
     with sr.Microphone() as source:
         #r.pause_threshold = 1     # seconds of pause after which the phrase is considered completed.
-        r.listen(source, timeout=4)  # Listen for speech input for a maximum of 5 seconds
+        #r.listen(source, timeout=4)  # Listen for speech input for a maximum of 4 seconds
         audio = r.listen(source)
 
         try:
