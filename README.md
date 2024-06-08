@@ -1,5 +1,5 @@
-# Yantra A.I.
-This Project aims at developing an AI assistant for desktop having speech based operations in addition to text for your assistance.
+# Yantra
+This Project aims at developing an assistant for desktop having speech based operations in addition to text for your assistance.
 
 The source code is contained in $\textit{main.py}$ and $\textit{Yantra.ipynb}$ in different formats.
 
