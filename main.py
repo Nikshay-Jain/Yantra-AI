@@ -40,7 +40,7 @@ r.energy_threshold = 300
 def hear():
     with sr.Microphone() as source:
         #r.pause_threshold = 1     # seconds of pause after which the phrase is considered completed.
-        #r.listen(source, timeout=4)  # Listen for speech input for a maximum of 4 seconds
+        r.listen(source, timeout=4)  # Listen for speech input for a maximum of 4 seconds
         audio = r.listen(source)
 
         try:
@@ -62,8 +62,8 @@ sites.sort_values('name', inplace=True)
 sites.reset_index(drop=True , inplace=True)
 sites.to_csv("sites.csv",index=False)
 
-text = "Nuhmuhstay! Yantruh A.I. is at your command sir!!!"
-print("Namaste! Yantra A.I. is at your command sir!!!")
+text = "Nuhmuhstay! Yantruh is at your command sir!!!"
+print("Namaste! Yantra is at your command sir!!!")
 say(text)
 while True:
     f=0
