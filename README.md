@@ -1,6 +1,8 @@
 # Yantra
 This Project aims at developing an assistant for desktop having speech based operations in addition to text for your assistance.
 
+API keys are now loaded from a local `.env` file instead of being hardcoded in Python source. Add your keys to `.env` and keep that file out of Git.
+
 The source code is contained in $\textit{main.py}$ and $\textit{Yantra.ipynb}$ in different formats.
 
 This tool helps you simplify your daily operations on your computer greatly by inducing speech sensitive response mechanism.
